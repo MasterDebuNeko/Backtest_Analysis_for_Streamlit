@@ -3,6 +3,7 @@
 # 1. Import Libraries ที่จำเป็น
 import streamlit as st
 import pandas as pd # ยังคงจำเป็นสำหรับการจัดการ DataFrame ในบางส่วนของ UI หรือการส่งต่อ
+import numpy as np
 
 # Import ฟังก์ชันจากไฟล์ที่เราสร้างขึ้นใหม่
 # from utils import CustomDivergingNorm # ไม่น่าจะต้องใช้ CustomDivergingNorm โดยตรงใน app.py แล้ว
